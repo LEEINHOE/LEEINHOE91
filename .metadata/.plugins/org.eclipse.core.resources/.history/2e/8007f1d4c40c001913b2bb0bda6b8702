@@ -1,0 +1,15 @@
+
+public class C_RelationalOp_2 {
+
+	public static void main(String[] args) {
+
+		final int a = 3;
+		final double b = 3.0;
+				
+		System.out.println("a == b : " + (a == b));
+		System.out.println("a != b : " + (a != b));
+
+
+	}
+
+}

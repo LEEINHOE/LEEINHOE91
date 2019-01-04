@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Q_1 {
+
+	public static void main(String[] args) {
+		int num = 0;
+		int result = 1;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("정수를 하나 입력하세요: ");
+		num = sc.nextInt();
+		
+		while(num > 1) {
+			result = result * num;
+			num--;
+		}
+
+		System.out.println("팩토리얼 함수 결과 : " + result);
+		
+		sc.close();
+	}
+
+}
+

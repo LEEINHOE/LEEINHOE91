@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Exam_0602 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("국어 : ");
+		int num1 = sc.nextInt();
+		
+		System.out.println("영어 : ");
+		int num2 = sc.nextInt();
+		
+		System.out.println("수학 : ");
+		int num3 = sc.nextInt();
+		
+		int num4 = (num1 + num2 + num3)/3;
+		
+		System.out.println("평균 : " + num4);
+		
+		String sresult;
+		if(num4 > 90);
+			System.out.println("학점 : A");
+		
+		else if(num4 > 80);
+			System.out.println("학점 : B");
+		
+		else if(num4 > 70)
+			System.out.println("학점 : C");
+		
+		else if(num4 > 50)
+			System.out.println("학점 : D");
+		
+		else
+			System.out.println("학점 : F");
+		
+	}
+
+}

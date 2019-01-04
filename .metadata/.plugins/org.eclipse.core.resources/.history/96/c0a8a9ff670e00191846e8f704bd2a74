@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Quiz_06031 {
+
+	public static void main(String[] args) {
+		Scanner sc =  new Scanner(System.in);
+		
+		System.out.println("입력정수 : ");
+		int num = sc.nextInt();
+		
+		
+		
+	}
+
+}

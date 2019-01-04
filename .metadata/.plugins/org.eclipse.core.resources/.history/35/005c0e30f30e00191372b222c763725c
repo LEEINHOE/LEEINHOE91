@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class answer {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("숫자입력 : ");
+		int num =sc.nextInt();
+		
+		int nresult = 1; //보통은 0으로하는데 곱하면 0되니까 1로 지정.
+	
+		
+		
+		System.out.printf("%d! = ", num);
+		while(num>=1) {
+			
+			if(num > 1) {
+			System.out.print(num + "*");}
+			else {
+				System.out.println(num + "=");
+			}
+			
+			nresult = nresult * num;
+			num--;
+			
+		}
+		
+		System.out.println("결과 : " + nresult);
+
+	}
+
+}
